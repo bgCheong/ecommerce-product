@@ -8,3 +8,12 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create-drop 
+
+spring:
+  cloud:
+    config:
+      enabled: false
+      
+eureka:
+  client:
+    enabled: false
